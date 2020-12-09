@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		650FC86625801136003FBE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650FC86525801136003FBE2F /* AppDelegate.swift */; };
 		650FC86825801136003FBE2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650FC86725801136003FBE2F /* SceneDelegate.swift */; };
-		650FC86A25801136003FBE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650FC86925801136003FBE2F /* ViewController.swift */; };
 		650FC86D25801136003FBE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650FC86B25801136003FBE2F /* Main.storyboard */; };
 		650FC87025801136003FBE2F /* Progress_Journal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 650FC86E25801136003FBE2F /* Progress_Journal.xcdatamodeld */; };
 		650FC8722580113B003FBE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650FC8712580113B003FBE2F /* Assets.xcassets */; };
 		650FC8752580113B003FBE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650FC8732580113B003FBE2F /* LaunchScreen.storyboard */; };
+		650FC87F25801B71003FBE2F /* ProgressUpdateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650FC87E25801B71003FBE2F /* ProgressUpdateTableViewController.swift */; };
+		650FC88225801BBF003FBE2F /* CreateProgressUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650FC88125801BBF003FBE2F /* CreateProgressUpdateViewController.swift */; };
+		65A989B8258122400057FA58 /* ViewProgressUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A989B7258122400057FA58 /* ViewProgressUpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		650FC86225801136003FBE2F /* Progress Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Progress Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		650FC86525801136003FBE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		650FC86725801136003FBE2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		650FC86925801136003FBE2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		650FC86C25801136003FBE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		650FC86F25801136003FBE2F /* Progress_Journal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Progress_Journal.xcdatamodel; sourceTree = "<group>"; };
 		650FC8712580113B003FBE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		650FC8742580113B003FBE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		650FC8762580113B003FBE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650FC87E25801B71003FBE2F /* ProgressUpdateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressUpdateTableViewController.swift; sourceTree = "<group>"; };
+		650FC88125801BBF003FBE2F /* CreateProgressUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProgressUpdateViewController.swift; sourceTree = "<group>"; };
+		65A989B7258122400057FA58 /* ViewProgressUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProgressUpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				650FC86525801136003FBE2F /* AppDelegate.swift */,
 				650FC86725801136003FBE2F /* SceneDelegate.swift */,
-				650FC86925801136003FBE2F /* ViewController.swift */,
 				650FC86B25801136003FBE2F /* Main.storyboard */,
 				650FC8712580113B003FBE2F /* Assets.xcassets */,
 				650FC8732580113B003FBE2F /* LaunchScreen.storyboard */,
 				650FC8762580113B003FBE2F /* Info.plist */,
 				650FC86E25801136003FBE2F /* Progress_Journal.xcdatamodeld */,
+				650FC87E25801B71003FBE2F /* ProgressUpdateTableViewController.swift */,
+				650FC88125801BBF003FBE2F /* CreateProgressUpdateViewController.swift */,
+				65A989B7258122400057FA58 /* ViewProgressUpdateViewController.swift */,
 			);
 			path = "Progress Journal";
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				650FC87025801136003FBE2F /* Progress_Journal.xcdatamodeld in Sources */,
-				650FC86A25801136003FBE2F /* ViewController.swift in Sources */,
+				65A989B8258122400057FA58 /* ViewProgressUpdateViewController.swift in Sources */,
+				650FC87F25801B71003FBE2F /* ProgressUpdateTableViewController.swift in Sources */,
+				650FC88225801BBF003FBE2F /* CreateProgressUpdateViewController.swift in Sources */,
 				650FC86625801136003FBE2F /* AppDelegate.swift in Sources */,
 				650FC86825801136003FBE2F /* SceneDelegate.swift in Sources */,
 			);
